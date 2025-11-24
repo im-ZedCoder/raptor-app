@@ -100,7 +100,7 @@ const App = () => {
               <img
                 alt="Telegram sticker"
                 className="blt0jZBzpxuR4oDhJc8s"
-                src="/src/assets/animation.gif"
+                src="https://guard-tech.ir/assets/animation.giff"
               />
             </div>
           </Placeholder>
