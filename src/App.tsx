@@ -47,7 +47,7 @@ const App = () => {
     return (
       <div>
         <Cell
-          onClick={() => OpenThisLinkInTelegram("https://t.me/raptor_codm")}
+          onClick={() => OpenThisLinkInTelegram("https://t.me/+kUvszkGo5KFkMGE8")}
           style={{
             backgroundColor: "var(--tg-theme-bg-color)",
             borderRadius: "8px",
