@@ -1,25 +1,2 @@
-# Raptor_Codm
-
-[ Telegram Channel ](https://t.me/Raptor_codm)
-
-🔥**CODM Config** : `@Raptor_CODM`
-
-🔥**CODM Cheat** : `@Raptor_CODM`
-
-🔥**GROUP** : `@Raptor_CoDM_Gap`
-
-🔥**TRUST** : `@Raptor_CODM_Trust`
-
-# Owner
-> IM_RAPTORS
-
-```Json
-{
-  "info":{
-    "owner": "@IM_RAPTORS",
-    "codm config": "@Raptor_CODM",
-    "codm cheat": "@Raptor_CODM",
-    "telegram gap": "@Raptor_Codm_Gap",
-    "TRUST": "@Raptor_Codm_TRUST"}
-}
-```
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Raptor%20CODM&fontAlign=50&fontAlignY=35&color=0:111827,100:1F2937&fontColor=F8FAFC" alt="Raptor CODM banner"></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=F8FAFC&center=true&vCenter=true&width=600&lines=Raptor+CODM+-+Configs%2C+Cheats%2C+DNS;Raptor+Gaming+Cummunity+!+;Always+with+Raptor" alt="typing animation"></p>
