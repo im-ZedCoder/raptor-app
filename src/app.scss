@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    padding: 1rem;
+    // padding: 1rem;
 }
 
 #sticker-container {
@@ -27,4 +27,8 @@ body {
     >*:first-child {
         width: 50%;
     }
+}
+
+#placeholder-main {
+    background-color: var(--tg-theme-secondary-bg-color);
 }

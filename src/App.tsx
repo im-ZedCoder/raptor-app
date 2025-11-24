@@ -1,4 +1,4 @@
-import { openTelegramLink, useLaunchParams }from "@telegram-apps/sdk-react";
+import { openTelegramLink, useLaunchParams } from "@telegram-apps/sdk-react";
 import {
   AppRoot,
   Placeholder,
@@ -9,8 +9,8 @@ import {
 } from "@telegram-apps/telegram-ui";
 import { TabsItem } from "@telegram-apps/telegram-ui/dist/components/Navigation/TabsList/components/TabsItem/TabsItem";
 import { useState } from "react";
-const OpenThisLinkInTelegram = (url:string) => {
-  if (openTelegramLink.isAvailable()){
+const OpenThisLinkInTelegram = (url: string) => {
+  if (openTelegramLink.isAvailable()) {
     openTelegramLink(url);
   }
 }
@@ -91,19 +91,21 @@ const App = () => {
   return (
     <div id="container-home">
       <AppRoot platform={lp.tgWebAppPlatform === "ios" ? "ios" : "base"}>
-        <div className="HIJtihMA8FHczS02iWF5">
-          <Placeholder
-            description="Join Raptor Community!"
-            header="Raptor CODM"
-          >
-            <div id="sticker-container">
-              <img
-                alt="Telegram sticker"
-                className="blt0jZBzpxuR4oDhJc8s"
-                src="https://guard-tech.ir/assets/animation.giff"
-              />
-            </div>
-          </Placeholder>
+        <div id="placeholder-main">
+          <div className="HIJtihMA8FHczS02iWF5">
+            <Placeholder
+              description="Join Raptor Community!"
+              header="Raptor CODM"
+            >
+              <div id="sticker-container">
+                <img
+                  alt="Telegram sticker"
+                  className="blt0jZBzpxuR4oDhJc8s"
+                  src="https://guard-tech.ir/assets/animation.giff"
+                />
+              </div>
+            </Placeholder>
+          </div>
         </div>
         <TabsList>
           <TabsItem
