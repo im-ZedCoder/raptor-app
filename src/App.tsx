@@ -27,7 +27,7 @@ const App = () => {
       renderer: "svg",
       loop: true,
       autoplay: true,
-      path: 'https://guard-tech.ir/assets/crystal.json'
+      path: './assets/crystal.json'
     });
   }, []);
 
