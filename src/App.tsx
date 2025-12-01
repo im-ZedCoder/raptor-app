@@ -1,5 +1,4 @@
 import { openTelegramLink, useLaunchParams } from "@telegram-apps/sdk-react";
-import Lottie from "lottie-web";
 import {
   AppRoot,
   Placeholder,
@@ -9,7 +8,7 @@ import {
   Divider,
 } from "@telegram-apps/telegram-ui";
 import { TabsItem } from "@telegram-apps/telegram-ui/dist/components/Navigation/TabsList/components/TabsItem/TabsItem";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const OpenThisLinkInTelegram = (url: string) => {
   if (openTelegramLink.isAvailable()) {
@@ -19,18 +18,6 @@ const OpenThisLinkInTelegram = (url: string) => {
 
 const App = () => {
   const lp = useLaunchParams();
-  useEffect(() => {
-    const container = document.querySelector("div#container-lottie");
-    if (!container) return;
-    
-    Lottie.loadAnimation({
-      container: container,
-      loop: true,
-      autoplay: true,
-      path: 'https://guard-tech.ir/assets/crystal.json',
-    });
-  }, []);
-
   const [activeTab, setActiveTab] = useState<'Channel' | 'Group'>('Channel');
   const groups = () => {
     return (
@@ -113,7 +100,12 @@ const App = () => {
               header="Raptor CODM"
             >
               <div id="sticker-container">
-                <div id="container-lottie" />
+                <img
+                  src="https://guard-tech.ir/assets/crystal.gix"
+                  alt="Raptor CODM Sticker"
+                  id="sticker-image"
+                  draggable= "false"
+                />
               </div>
             </Placeholder>
           </div>
