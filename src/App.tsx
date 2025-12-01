@@ -22,11 +22,12 @@ const App = () => {
   useEffect(() => {
     const container = document.querySelector("div#container-lottie");
     if (!container) return;
+    
     Lottie.loadAnimation({
       container: container,
       loop: true,
       autoplay: true,
-      path: '/src/assets/crystal.json'
+      path: 'https://guard-tech.ir/assets/crystal.json',
     });
   }, []);
 
