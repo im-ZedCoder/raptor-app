@@ -24,10 +24,9 @@ const App = () => {
     if (!container) return;
     Lottie.loadAnimation({
       container: container,
-      renderer: "svg",
       loop: true,
       autoplay: true,
-      path: './assets/crystal.json'
+      path: '/src/assets/crystal.json'
     });
   }, []);
 
