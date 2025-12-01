@@ -25,10 +25,10 @@ body {
     justify-content: center;
     align-items: center;
     >*:first-child {
-        width: 50%;
+        width: 75%;
     }
 }
 
-#placeholder-main {
-    background-color: var(--tg-theme-secondary-bg-color);
+#lottie-container {
+    background-color: transparent;
 }

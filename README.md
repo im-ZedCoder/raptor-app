@@ -1,73 +1,25 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Raptor%20CODM&fontAlign=50&fontAlignY=35&color=0:111827,100:1F2937&fontColor=F8FAFC" alt="Raptor CODM banner">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=F8FAFC&center=true&vCenter=true&width=600&lines=Raptor+CODM+-+Configs%2C+Cheats%2C+DNS;Raptor+Gaming+Community+!+;Always+with+Raptor" alt="typing animation">
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<div style="background:#1F2937; padding:15px; border-radius:10px; border-left:4px solid #ff5555; color:#fff; font-size:18px;">
+  <b><a href="https://t.me/Raptor_codm">🔥 Call Of Duty Mobile Configs?</a></b>
+</div>
+<p/>
+<div style="background:#1F2937; padding:15px; border-radius:10px; border-left:4px solid #ff5555; color:#fff; font-size:18px;">
+  <b><a href="https://t.me/+kUvszkGo5KFkMGE8">📢 Raptor Official Channel</a></b>
+</div>
+<p/>
+<div style="background:#1F2937; padding:15px; border-radius:10px; border-left:4px solid #ff5555; color:#fff; font-size:18px;">
+  <b><a href="https://t.me/Raptor_codm_gap">👥 Raptor Official Group</a></b>
+</div>
+<p/>
+<div style="background:#1F2937; padding:15px; border-radius:10px; border-left:4px solid #ff5555; color:#fff; font-size:18px;">
+  <b><a href="https://t.me/im_raptors">👑 IM_RAPTORS</a></b>
+</div>
