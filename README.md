@@ -22,4 +22,8 @@
 <p/>
 <div style="background:#1F2937; padding:15px; border-radius:10px; border-left:4px solid #ff5555; color:#fff; font-size:18px;">
   <b><a href="https://t.me/im_raptors">👑 IM_RAPTORS</a></b>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> e248fc6ec1c5758fad05b2968e6a12b693e89c62
