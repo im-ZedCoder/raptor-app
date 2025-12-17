@@ -62,7 +62,7 @@ const App = () => {
             />
           }
           description="Raptor CODM Official Channel"
-          subtitle="250 Members"
+          subtitle="600 Members"
         >
           CODM CONFIG • CHEAT • DNS
         </Cell>
